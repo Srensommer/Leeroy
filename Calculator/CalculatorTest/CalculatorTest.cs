@@ -35,13 +35,7 @@ namespace CalculatorTest
         public void Substract_Sub2From5_return3()
         {
             const int EXPECTED_RETURNVALUE = 3;
-            //Using AAA pattern
-
-            //Arrange in setup
-
-            //Act
             double returnValue = uut.Subtract(5, 2);
-            //Assert
             Assert.That(returnValue, Is.EqualTo(EXPECTED_RETURNVALUE));
         }
     }
